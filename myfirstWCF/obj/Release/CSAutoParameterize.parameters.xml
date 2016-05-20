@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="myConnectionString-Web.config Connection String" description="myConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=justgetcodes.database.windows.net; Integrated Security=False; Initial Catalog=justgetcodes; User ID=msSQL; Password=1Qaz0Okm" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Just\ Get\ Codes\ Repo\\Tutorial\ WCF\\myfirstWCF\\myfirstWCF\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='myConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

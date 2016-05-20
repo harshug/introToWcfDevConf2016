@@ -1,0 +1,35 @@
+﻿@model mywebsite.ServiceReference1.TvShows
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Index";
+}
+
+<h2>My Tv Shows</h2>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<table class="table">
+    <thead>
+        <tr>
+
+            <th>TV Show Name</th>
+            <th>Show Ratings</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+       @for (int i = 0; i < Model.TVID.Count(); i++)
+       {
+        <tr>
+
+            <td>@Model.TvShowsName[i]</td>
+
+            <td>@Model.Ratings[i]</td>
+
+        </tr>
+
+       }
+
+    </tbody>
+</table>

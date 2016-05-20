@@ -1,0 +1,6 @@
+D:\Just Get Codes Repo\Tutorial WCF\myfirstWCF\myfirstWCF\obj\Debug\myfirstWCF.csprojResolveAssemblyReference.cache
+D:\Just Get Codes Repo\Tutorial WCF\myfirstWCF\myfirstWCF\bin\myfirstWCF.dll.config
+D:\Just Get Codes Repo\Tutorial WCF\myfirstWCF\myfirstWCF\bin\myfirstWCF.dll
+D:\Just Get Codes Repo\Tutorial WCF\myfirstWCF\myfirstWCF\bin\myfirstWCF.pdb
+D:\Just Get Codes Repo\Tutorial WCF\myfirstWCF\myfirstWCF\obj\Debug\myfirstWCF.dll
+D:\Just Get Codes Repo\Tutorial WCF\myfirstWCF\myfirstWCF\obj\Debug\myfirstWCF.pdb
